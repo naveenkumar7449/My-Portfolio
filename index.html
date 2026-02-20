@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Naveen Kumar R | Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- AOS Animation -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <!-- CSS File -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <header>
+    <div class="logo">
+      <div class="logo-icon">NK</div>
+      <div class="logo-text">
+        <span class="logo-name">Naveen Kumar R</span>
+        <span class="logo-tagline">SDE Aspirant</span>
+      </div>
+    </div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="header-actions">
+      <div class="social-links">
+        <a href="https://github.com/naveenkumar7449" target="_blank" class="social-icon" title="GitHub">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+        </a>
+        <a href="https://www.linkedin.com/in/naveen-kumar-r-096783333?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" class="social-icon" title="LinkedIn">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+        </a>
+      </div>
+      <a href="assets/Naveen-Kumar-R-Resume.pdf" download="Naveen_Kumar_Resume.pdf" class="hire-btn">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="margin-right: 6px;">
+          <path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/>
+        </svg>
+        Download CV
+      </a>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="hero">
+    <div class="hero-text" data-aos="fade-right">
+      <h2>Hello, I'm</h2>
+      <h1>Naveen Kumar R</h1>
+      <p>Aspiring Software Development Engineer | CS-AI Student | Learner | Tech Enthusiast</p>
+      <a href="#projects" class="btn">View My Work</a>
+    </div>
+    <div class="hero-visual" data-aos="fade-left">
+      <div class="geometric-sphere">
+        <div class="sphere-ring ring-1"></div>
+        <div class="sphere-ring ring-2"></div>
+        <div class="sphere-ring ring-3"></div>
+        <div class="sphere-core">
+          <div class="core-dot"></div>
+        </div>
+        <div class="orbit-dots">
+          <div class="orbit-dot dot-1"></div>
+          <div class="orbit-dot dot-2"></div>
+          <div class="orbit-dot dot-3"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" data-aos="zoom-in" data-aos-duration="800">
+    <div style="display: flex; align-items: center; gap: 15px; margin-bottom: 20px;" data-aos="fade-down" data-aos-delay="100">
+      <h2 style="margin-bottom: 0;">About Me</h2>
+      <button id="speak-btn" class="voice-btn" title="Listen to About Me">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>
+        </svg>
+      </button>
+    </div>
+    <div class="about-content">
+      <div class="profile-picture" data-aos="flip-left" data-aos-delay="200">
+        <img src="assets/images/me.jpg.jpeg" alt="Naveen Kumar R" id="profile-img">
+      </div>
+      <div class="about-text-wrapper" data-aos="fade-left" data-aos-delay="300">
+        <p id="about-text">
+          <span>HI, I'm Naveen Kumar R, a Computer Science (AI) student passionate about software development and data analytics. I have experience in Python, Web Development(HTML,CSS,JavaScript) and SQL.I also work with PowerBI,Tableau and Excel to analyze and visualize data. Iam continuously improving my problem-solving skills and building projects to become a skilled Software Development Engineer.</span>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" data-aos="fade-up">
+    <h2 data-aos="zoom-in" data-aos-delay="100">Skills</h2>
+    <div class="skills-wrapper">
+      <div class="skill-category" data-aos="flip-up" data-aos-delay="100">
+        <h3>Programming</h3>
+        <div class="skill-items">
+          <div class="skill">Python</div>
+          <div class="skill">JavaScript</div>
+        </div>
+      </div>
+      <div class="skill-category" data-aos="flip-up" data-aos-delay="200">
+        <h3>Web Development</h3>
+        <div class="skill-items">
+          <div class="skill">HTML</div>
+          <div class="skill">CSS</div>
+          <div class="skill">JavaScript</div>
+          <div class="skill">Responsive Web Design</div>
+        </div>
+      </div>
+      <div class="skill-category" data-aos="flip-up" data-aos-delay="300">
+        <h3>Database</h3>
+        <div class="skill-items">
+          <div class="skill">SQL</div>
+          <div class="skill">Basic Database Management</div>
+        </div>
+      </div>
+      <div class="skill-category" data-aos="flip-up" data-aos-delay="400">
+        <h3>Data Analytics & Visualization</h3>
+        <div class="skill-items">
+          <div class="skill">PowerBI</div>
+          <div class="skill">Tableau</div>
+          <div class="skill">Microsoft Excel</div>
+        </div>
+      </div>
+      <div class="skill-category" data-aos="flip-up" data-aos-delay="500">
+        <h3>Tools & Platforms</h3>
+        <div class="skill-items">
+          <div class="skill">VS Code</div>
+          <div class="skill">Git & GitHub</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" data-aos="fade-up">
+    <h2 data-aos="zoom-in" data-aos-delay="100">Projects</h2>
+    <div class="projects-container">
+      <div class="project-card" data-aos="zoom-in-up" data-aos-delay="200">
+        <h3>Weather App</h3>
+        <p>A responsive weather application that fetches real-time weather data using API and displays temperature, humidity and conditions.</p>
+        <div class="project-links">
+          <a href="https://naveenkumar7449.github.io/weather-app/" target="_blank" class="project-btn">Live Demo</a>
+          <a href="https://github.com/naveenkumar7449/weather-app" target="_blank" class="project-btn">View Code</a>
+        </div>
+      </div>
+      <div class="project-card" data-aos="zoom-in-up" data-aos-delay="400">
+        <h3>ToDo-App</h3>
+        <p>"A feature-rich task management app with glassmorphism UI, priority levels, due dates, and real-time search built with vanilla JavaScript and LocalStorage."</p>
+        <div class="project-links">
+          <a href="https://naveenkumar7449.github.io/todo-app/" target="_blank" class="project-btn">Live Demo</a>
+          <a href="https://github.com/naveenkumar7449/todo-app" target="_blank" class="project-btn">View Code</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" data-aos="zoom-in" data-aos-duration="800">
+    <h2 data-aos="fade-down" data-aos-delay="100">Contact</h2>
+    <p data-aos="fade-right" data-aos-delay="200">Phone no: +91 8660077449</p>
+    <p data-aos="fade-left" data-aos-delay="300">Email: kalyaankumar7449@gmail.com</p>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    © 2026 Naveen Kumar R| All Rights Reserved
+  </footer>
+
+  <!-- JS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="script.js"></script>
+
+</body>
+</html>
